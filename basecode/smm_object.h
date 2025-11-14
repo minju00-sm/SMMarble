@@ -47,3 +47,4 @@ char* smmObj_getNodeName(int node_type);
 
 
 #endif /* smm_object_h */
+
