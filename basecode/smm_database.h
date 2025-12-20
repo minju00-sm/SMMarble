@@ -19,5 +19,3 @@ int smmdb_len(int list_nr);                   //get database length
 void* smmdb_getData(int list_nr, int index);        //get index'th data
 
 #endif /* smm_database_h */
-
-

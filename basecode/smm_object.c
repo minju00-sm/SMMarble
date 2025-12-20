@@ -58,12 +58,6 @@ static char smmObj_gradeName[SMMNODE_MAX_GRADE][MAX_CHARNAME] = {
 };
 
 
-//structure type definition
-
-static char smm_name[MAX_NODENR][MAX_CHARNAME];
-static int smm_type[MAX_NODENR];
-static int smm_credit[MAX_NODENR];
-static int smm_energy[MAX_NODENR];
 
 
 typedef struct {
@@ -146,19 +140,5 @@ int smmObj_getNodeType(void *ptr)
     smmObj_object_t* objPtr = (smmObj_object_t*)ptr;
     return (objPtr->type);
 }
-
-
-#if 0
-//element to string
-char* smmObj_getNodeName(smmNode_e type)
-{
-    return smmNodeName[type];
-}
-
-char* smmObj_getGradeName(smmGrade_e grade)
-{
-    return smmGradeName[grade];
-}
-#endif
 
 

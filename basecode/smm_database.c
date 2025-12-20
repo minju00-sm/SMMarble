@@ -222,5 +222,3 @@ void* smmdb_getData(int list_nr, int index)
     
     return obj;
 }
-
-

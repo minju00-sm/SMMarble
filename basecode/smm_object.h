@@ -59,12 +59,6 @@ int smmObj_getObjectGrade(void *ptr);
 int smmObj_getNodeType(void *ptr);
 
 
-//member retrieving
-
-
-//element to string
-
-
 
 #endif /* smm_object_h */
 
